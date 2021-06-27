@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "Products";
+}
+
+<div>
+    <ul class="list-group">
+        @foreach(var product in Model)
+        {
+            <li class="list-group-item list-group-item-action list-group-item-secondary">
+                <a href="@product.Id" class="w-100" style="display: inline-flex; text-decoration: none;">
+                    <div class="w-25 rounded img-thumbnail" style="height: 180px;">
+                        <img style="width:100%; height:100%; object-fit:contain;" src="@Url.Action("GetPrimaryImage", "Category", new { Id = product.Id })" />
+                    </div>
+                    <div class="w-75 text-center" style="display:block;">
+                        <h3>@product.Name</h3>
+                        <h4>@($"{product.Price:C2}")</h4>
+                    </div>
+                </a>
+            </li>
+        }
+    </ul>
+</div>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspMagaz", "AspMagaz\AspMagaz.csproj", "{AA85095D-FE3C-4611-B25A-3FDCDA61345F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA85095D-FE3C-4611-B25A-3FDCDA61345F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA85095D-FE3C-4611-B25A-3FDCDA61345F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA85095D-FE3C-4611-B25A-3FDCDA61345F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA85095D-FE3C-4611-B25A-3FDCDA61345F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F3ACB69-2431-439C-A1C1-8BBDABE5E1E4}
+	EndGlobalSection
+EndGlobal
